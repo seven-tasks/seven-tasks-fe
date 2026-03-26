@@ -1,3 +1,5 @@
+import ContributionGrid from "./ContributionGrid";
+
 export default function HomePage() {
     return (
         <div>
@@ -6,9 +8,10 @@ export default function HomePage() {
             <div style={{ display: "flex", gap: "20px" }}>
 
                 <div style={card(2)}>
-                    Ofensiva
+                    Ofensiva <br/> <br/>
+                 <ContributionGrid/>
                 </div>
-
+                
                 <div style={card(1)}>
                     Atividades recentes
                 </div>

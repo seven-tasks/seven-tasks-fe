@@ -5,6 +5,7 @@ export default function Sidebar() {
         <div style={{ width: '220px', background: '#06070E', color: '#FFF', padding: '20px' }}>
             <h2>SevenTasks</h2>
             <p>Gerencie suas tarefas</p>
+            <hr/> <br/>
             <nav style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                 {[
                     { to: "/", label: "Home" },
